@@ -26,7 +26,7 @@ public class CitizensController {
 	private IReportService service;
 	
 	
-	@GetMapping("Plan/Names")
+	@GetMapping("/Plan/Names")
 	public Set<String> getAllPlaneName(){
 		System.out.println("calling");
 		return service.getPlaneName();
